@@ -1,0 +1,37 @@
+body {
+  background-image: url(../../../public/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.title {
+    background-color: rgba(124, 116, 112, 0.7);
+    color: white;
+    padding: 15px;
+}
+.vglasses__model img{
+    position: absolute;
+    top: 24%;
+    left: 23%;
+    width: 238px;
+    height: 85px;
+    opacity: 0.9;
+}
+
+.vglasses__card{
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.vglasses__info{
+    position: absolute;
+    bottom:1px;
+    left: 0;
+    background-color: rgb(233 116 43 / 70%);
+    width: 89%;
+    color: white;
+    padding: 20px;
+   /* display: none; */
+}
